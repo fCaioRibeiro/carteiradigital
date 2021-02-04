@@ -1,3 +1,51 @@
-.btn, input {
+.btn {
     box-shadow: none !important;
+    border-radius: 15px !important;
 }
+
+input {
+    outline: 0 !important;
+    box-shadow: none !important;
+    border: 3px solid !important;
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-color: #888888 !important;
+    transition: all 200ms !important;
+    border-radius: 8px !important;
+    color: #e4e4e4 !important;
+}
+
+input:focus {
+    border-color: #00c499 !important;
+}
+
+/* bg #7D7D7D text #E4E4E4  */
+
+.basic-card {
+    border-radius: 15px;
+    background-color: #441f92;
+    color: #e4e4e4;
+}
+
+/* bg #C5C5C5 text #888888  */
+
+.basic-card-footer {
+    border-radius: 0 0 15px 15px !important;
+    background-color: #575757;
+    color: #e4e4e4 !important;
+}
+
+/* bg #7D7D7D text #E4E4E4  */
+
+.basic-mini-card {
+    border-radius: "5px";
+    background-color: #441f92;
+    font-size: 66%;
+    color: #e4e4e4;
+    padding: 3px;
+}
+
+:-webkit-input-placeholder {
+    color: red;
+ }
